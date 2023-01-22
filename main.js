@@ -14,3 +14,15 @@
 // console.log(document.forms[0]);
 // console.log(document.links);
 // console.log(document.images);
+
+// GET ELEMENT BY ID //
+// console.log(document.getElementById('header-title'));
+// var headerTitle = document.getElementById('header-title');
+// var header = document.getElementById('main-header');
+// console.log(headerTitle);
+// headerTitle.textContent = 'Hello';
+// headerTitle.innerText = 'Goodbye';
+// console.log(headerTitle.textContent); // .textContent doesn't pay attention to the style
+// console.log(headerTitle.innerText); //.innerText pays attention to the style
+// headerTitle.innerHTML = '<h3>Hello</h3>';
+// header.style.borderBottom = 'solid 3px #000';
