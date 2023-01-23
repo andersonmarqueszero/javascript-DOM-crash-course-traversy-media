@@ -43,7 +43,7 @@
 //     items[i].style.backgroundColor = '#f4f4f4';
 // }
 
-//Get Elements By Tag Name
+// Get Elements By Tag Name //
 
 // var li = document.getElementsByTagName('li');
 // console.log(li);
