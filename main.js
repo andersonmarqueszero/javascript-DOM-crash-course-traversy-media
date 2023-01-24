@@ -106,3 +106,22 @@ var itemList = document.querySelector('#items');
 // console.log(itemList.parentElement);
 // itemList.parentElement.style.backgroundColor = '#f4f4f4';
 // console.log(itemList.parentElement.parentElement.parentElement);
+
+// childNodes
+// console.log(itemListchildNodes); // childNodes will display all the line breaks, it's recommended you use "children"
+
+// console.log(itemList.children);
+// console.log(itemList.children[1]);
+// itemList.children[1].style.backgroundColor = 'yellow';
+
+// firstChild
+// console.log(itemList.firstChild); // firstChild also displays the line breaks, you should use firstElementChild
+// firstElementChild
+// console.log(itemList.firstElementChild);
+// itemList.firstElementChild.textContent = 'Hello 1';
+
+// lastChild
+// console.log(itemList.lastChild); // lastChild also displays the line breaks, you should use lastElementChild
+// lastElementChild
+// console.log(itemList.lastElementChild);
+// itemList.lastElementChild.textContent = 'Hello 4';
