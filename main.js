@@ -96,7 +96,7 @@
 
 // Traversing the DOM //
 
-var itemList = document.querySelector('#items');
+// var itemList = document.querySelector('#items');
 // parentNode
 // console.log(itemList.parentNode);
 // itemList.parentNode.style.backgroundColor = '#f4f4f4';
@@ -136,3 +136,32 @@ var itemList = document.querySelector('#items');
 // previousElementSibling
 // console.log(itemList.previousElementSibling);
 // itemList.previousElementSibling.style.color = 'green';
+
+// createElement //
+
+// Create a div
+// var newDiv = document.createElement('div');
+
+// Add Class
+// newDiv.className = 'hello';
+
+// Add ID
+// newDiv.id = 'hello 1';
+
+// Add attribute
+// newDiv.setAttribute('title', 'Hello Div');
+
+// Create text node
+// var newDivText = document.createTextNode('Hello World');
+
+// Add Text to Div
+// newDiv.appendChild(newDivText);
+
+// var container = document.querySelector('header .container');
+// var h1 = document.querySelector('header h1');
+
+// console.log(newDiv);
+
+// newDiv.style.fontSize = '30px';
+
+// container.insertBefore(newDiv, h1);
