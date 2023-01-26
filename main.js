@@ -168,9 +168,9 @@
 
 // Events //
 
-var button = document.getElementById('button').addEventListener('click', buttonClick);
+// var button = document.getElementById('button').addEventListener('click', buttonClick);
 
-function buttonClick(e){
+// function buttonClick(e){
     // console.log('Button clicked');
     // document.getElementById('header-title').textContent = 'Changed';
     // document.querySelector('#main').style.backgroundColor = '#f4f4f4';
@@ -194,4 +194,31 @@ function buttonClick(e){
     // console.log(e.altKey);
     // console.log(e.ctrlKey);
     // console.log(e.shiftKey);
-}
+// }
+
+// Mouse Events
+
+// var button = document.getElementById('button');
+// var box = document.getElementById('box');
+
+// button.addEventListener('click', runEvent);
+// button.addEventListener('dblclick', runEvent);
+// button.addEventListener('mousedown', runEvent);
+// button.addEventListener('mouseup', runEvent);
+
+// box.addEventListener('mouseenter', runEvent);
+// box.addEventListener('mouseleave', runEvent);
+
+// box.addEventListener('mouseover', runEvent);
+// box.addEventListener('mouseout', runEvent);
+
+// box.addEventListener('mousemove', runEvent);
+
+// function runEvent(e){
+//     console.log('EVENT TYPE: '+e.type);
+
+    // output.innerHTML = '<h3>MouseX: '+e.offsetX+' </h3><h3>MouseY: '+e.offsetY+'</h3>';
+    
+    // box.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+", 40)";
+    // document.body.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+", 40)";
+// }
