@@ -222,3 +222,34 @@
     // box.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+", 40)";
     // document.body.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+", 40)";
 // }
+
+// Keyboard Events
+
+// var itemInput = document.querySelector('input[type="text"]');
+// var form = document.querySelector('form');
+// var select = document.querySelector('select');
+
+// itemInput.addEventListener('keydown', runEvent);
+// itemInput.addEventListener('keyup', runEvent);
+// itemInput.addEventListener('keypress', runEvent);
+
+// itemInput.addEventListener('focus', runEvent); // use this whenever you wanna listen for a "click inside the input"
+// itemInput.addEventListener('blur', runEvent); //use this whenever you wanna listen for a "click outside the input"
+
+// itemInput.addEventListener('cut', runEvent);
+// itemInput.addEventListener('paste', runEvent);
+
+// itemInput.addEventListener('input', runEvent);
+
+// select.addEventListener('change', runEvent);
+// select.addEventListener('input', runEvent);
+
+// form.addEventListener('submit', runEvent);
+
+// function runEvent(e){
+    // e.preventDefault(); // This function is used to prevent the deafult option to make the "submit" button work as intended
+    // console.log('EVENT TYPE: '+e.type);
+    
+    //console.log(e.target.value);
+    // document.getElementById('output').innerHTML = '<h3>'+e.target.value+'</h3>';
+// }
